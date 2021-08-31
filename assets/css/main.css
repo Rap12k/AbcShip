@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("http://fonts.cdnfonts.com/css/nasalization-2");
 /*
 	Alpha by HTML5 UP
 	html5up.net | @ajlkn
@@ -37,6 +38,11 @@ body {
 
 ol, ul {
   list-style: none;
+}
+
+.logoDescription {
+  font-family: "Nasalization", sans-serif;
+  letter-spacing: 2px;
 }
 
 blockquote, q {
@@ -2415,6 +2421,7 @@ body.landing #page-wrapper {
   vertical-align: middle;
   color: white;
   font-weight: bold;
+  font-family: "Nasalization", sans-serif;
 }
 #header h1 {
   color: inherit;
