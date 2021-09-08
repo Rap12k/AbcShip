@@ -45,6 +45,11 @@ ol, ul {
   letter-spacing: 2px;
 }
 
+.popularBrand {
+  margin-top: 0em;
+  width: 100%;
+}
+
 blockquote, q {
   quotes: none;
 }
@@ -1615,8 +1620,18 @@ header.major h2 {
 }
 header.major section {
   width: 50%;
-  padding: 0;
   margin: auto;
+  padding: 2em;
+}
+header.major .dualFeatureL {
+  float: left;
+  padding-left: 10em;
+}
+header.major .dualFeatureL .dualImageL {
+  width: 12em;
+}
+header.major .dualFeatureR {
+  float: right;
 }
 header.major p {
   display: inline-block;

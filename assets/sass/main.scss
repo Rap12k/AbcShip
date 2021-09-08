@@ -64,6 +64,11 @@
 		font-family: 'Nasalization', sans-serif;
 		letter-spacing: 2px;
 	}
+	
+	.popularBrand {
+		margin-top: 0em;
+		width: 100%;
+	}
 
 	blockquote,	q {
 		quotes: none;
@@ -397,8 +402,20 @@
 
 			section {
 				width: 50%;
-				padding: 0;
 				margin: auto;
+				padding: 2em;
+			}
+
+			.dualFeatureL {
+				float: left;
+				padding-left: 10em;
+				.dualImageL {
+					width: 12em;
+				}
+			}
+
+			.dualFeatureR {
+				float: right;
 			}
 
 			p {
@@ -713,6 +730,7 @@
 						border-radius: 0 0 _size(border-radius) _size(border-radius);
 					}
 				}
+				
 			}
 		}
 	}
