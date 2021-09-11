@@ -1703,6 +1703,20 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+			
+			header.major {
+				.dualFeatureL {
+					float: left;
+					padding-left: 6em;
+					.dualImageL {
+						width: 12em;
+					}
+				}
+
+			.dualFeatureR {
+				float: right;
+			}
+		}
 
 	}
 
@@ -1741,6 +1755,19 @@
 					padding: 0 4em;
 				}
 			}
+			header.major {
+				.dualFeatureL {
+					float: left;
+					padding-left: 6em;
+					.dualImageL {
+						width: 12em;
+					}
+				}
+
+			.dualFeatureR {
+				float: right;
+			}
+		}
 
 		/* Box */
 
@@ -1767,8 +1794,7 @@
 						}
 
 						&:last-child {
-							margin-bottom: $box-padding-vertical * -1;
-							margin-top: $box-padding-vertical;
+							margin-top: 1.5em;
 						}
 					}
 				}
@@ -1921,7 +1947,21 @@
 			}
 
 		/* Section/Article */
+				header.major {
+					section {
+						width: 100%;
+					}
+					.dualFeatureL {
+						display: block;
+						.dualImageL {
+							width: 12em;
+						}
+					}
 
+				.dualFeatureR {
+					display: block;
+				}
+			}
 			header {
 				&.major {
 					padding: 1em;
@@ -1975,17 +2015,15 @@
 						width: calc(100% + #{$box-padding-horizontal * 2});
 
 						&:first-child {
-							margin-bottom: $box-padding-vertical;
-							margin-top: $box-padding-vertical * -1;
+							
 						}
 
 						&:last-child {
-							margin-bottom: $box-padding-vertical * -1;
-							margin-top: $box-padding-vertical;
 						}
 					}
 				}
 			}
+			
 
 		/* Banner */
 
@@ -2138,13 +2176,11 @@
 						}
 
 						&:first-child {
-							margin-bottom: $box-padding-vertical;
-							margin-top: $box-padding-vertical * -1;
+							
 						}
 
 						&:last-child {
-							margin-bottom: $box-padding-vertical * -1;
-							margin-top: $box-padding-vertical;
+
 						}
 					}
 				}
